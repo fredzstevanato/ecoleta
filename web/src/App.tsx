@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
 
+import Routes from './routes';
+import CreatePoint from './pages/CreatePoint';
+
 function App() {
   return (
-        <h1>Hello Word</h1>
+    <div>
+      <Routes />
+    </div>
   );
 }
 
